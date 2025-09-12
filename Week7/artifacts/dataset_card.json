@@ -1,0 +1,13 @@
+{
+  "name": "synthetic_qa_week7",
+  "schema": {
+    "text": "string",
+    "source": "string"
+  },
+  "count": 41,
+  "source_docs": 50,
+  "license": "CC-BY-4.0 (corpus PDFs not redistributed)",
+  "generation_model": "gpt-4o-mini",
+  "base_model": "unsloth/Qwen2-7B-Instruct-bnb-4bit",
+  "notes": "Synthetic Q&A generated from local PDF corpus; trained with QLoRA on 4-bit base."
+}
