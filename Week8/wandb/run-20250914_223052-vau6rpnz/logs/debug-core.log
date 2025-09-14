@@ -1,0 +1,6 @@
+{"time":"2025-09-14T22:30:53.040845016Z","level":"INFO","msg":"main: starting server","port-filename":"/tmp/tmppy390c1x/port-247.txt","pid":247,"log-level":0,"disable-analytics":false,"shutdown-on-parent-exit":false,"enable-dcgm-profiling":false}
+{"time":"2025-09-14T22:30:53.042138876Z","level":"INFO","msg":"server: will exit if parent process dies","ppid":247}
+{"time":"2025-09-14T22:30:53.042077293Z","level":"INFO","msg":"server: accepting connections","addr":{"Name":"/tmp/wandb-247-32288-839097047/socket","Net":"unix"}}
+{"time":"2025-09-14T22:30:53.113702061Z","level":"INFO","msg":"connection: ManageConnectionData: new connection created","id":"1(@)"}
+{"time":"2025-09-14T22:30:53.134858112Z","level":"INFO","msg":"handleInformInit: received","streamId":"vau6rpnz","id":"1(@)"}
+{"time":"2025-09-14T22:30:53.448599075Z","level":"INFO","msg":"handleInformInit: stream started","streamId":"vau6rpnz","id":"1(@)"}

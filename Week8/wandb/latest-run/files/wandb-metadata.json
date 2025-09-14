@@ -1,0 +1,35 @@
+{
+  "os": "Linux-6.1.123+-x86_64-with-glibc2.35",
+  "python": "CPython 3.12.11",
+  "startedAt": "2025-09-14T22:30:52.652149Z",
+  "program": "MultimodalSum.ipynb",
+  "email": "jywu777@gmail.com",
+  "root": "/content",
+  "host": "ec49d7b1d4de",
+  "executable": "/usr/bin/python3",
+  "colab": "https://colab.research.google.com/notebook#fileId=1yKoWPdqoOqVGL8xNx9RRzu_4-C0qstax",
+  "cpu_count": 1,
+  "cpu_count_logical": 2,
+  "gpu": "Tesla T4",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "120942624768",
+      "used": "56163864576"
+    }
+  },
+  "memory": {
+    "total": "13608370176"
+  },
+  "gpu_nvidia": [
+    {
+      "name": "Tesla T4",
+      "memoryTotal": "16106127360",
+      "cudaCores": 2560,
+      "architecture": "Turing",
+      "uuid": "GPU-63aebdae-6ff8-64f8-39c9-2948ebe679ee"
+    }
+  ],
+  "cudaVersion": "12.4",
+  "writerId": "7s2n8te0ks1thi0qo6ij61vt970avzzd"
+}

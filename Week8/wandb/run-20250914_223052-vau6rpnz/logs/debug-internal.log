@@ -1,0 +1,6 @@
+{"time":"2025-09-14T22:30:53.135055841Z","level":"INFO","msg":"stream: starting","core version":"0.21.3"}
+{"time":"2025-09-14T22:30:53.448449624Z","level":"INFO","msg":"stream: created new stream","id":"vau6rpnz"}
+{"time":"2025-09-14T22:30:53.448495604Z","level":"INFO","msg":"writer: started","stream_id":"vau6rpnz"}
+{"time":"2025-09-14T22:30:53.448568226Z","level":"INFO","msg":"handler: started","stream_id":"vau6rpnz"}
+{"time":"2025-09-14T22:30:53.448520756Z","level":"INFO","msg":"stream: started","id":"vau6rpnz"}
+{"time":"2025-09-14T22:30:53.448532225Z","level":"INFO","msg":"sender: started","stream_id":"vau6rpnz"}

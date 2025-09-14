@@ -1,0 +1,44 @@
+Some weights of DebertaV2ForSequenceClassification were not initialized from the model checkpoint at microsoft/deberta-v3-base and are newly initialized: ['classifier.bias', 'classifier.weight', 'pooler.dense.bias', 'pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+/tmp/ipython-input-3799926920.py:35: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=torch.cuda.is_available())
+/tmp/ipython-input-3799926920.py:46: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(enabled=torch.cuda.is_available()):
+Some weights of DebertaV2ForSequenceClassification were not initialized from the model checkpoint at microsoft/deberta-v3-base and are newly initialized: ['classifier.bias', 'classifier.weight', 'pooler.dense.bias', 'pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+/usr/local/lib/python3.12/dist-packages/transformers/convert_slow_tokenizer.py:564: UserWarning: The sentencepiece tokenizer that you are converting to a fast tokenizer uses the byte fallback option which is not implemented in the fast tokenizers. In practice this means that the fast version of the tokenizer can produce unknown tokens whereas the sentencepiece version would have converted these unknown tokens into a sequence of byte tokens matching the original piece of text.
+  warnings.warn(
+No references detected; skipping ROUGE/BERTScore.
+No references detected; skipping ROUGE/BERTScore.
+Loading reward model from: microsoft/deberta-v3-small
+Some weights of DebertaV2ForSequenceClassification were not initialized from the model checkpoint at microsoft/deberta-v3-small and are newly initialized: ['classifier.bias', 'classifier.weight', 'pooler.dense.bias', 'pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Reward model preference accuracy (chosen > rejected): 0.000
+Backfilled references in 50 of 50 label files.
+ROUGE (chosen):   {'rouge1': np.float64(0.18743361154452334), 'rouge2': np.float64(0.050710788575234464), 'rougeL': np.float64(0.0908753467192501), 'rougeLsum': np.float64(0.1824087056231199)}
+ROUGE (rejected): {'rouge1': np.float64(0.18739778615182712), 'rouge2': np.float64(0.050237287345084855), 'rougeL': np.float64(0.08957868785265927), 'rougeLsum': np.float64(0.18180992931540077)}
+Some weights of RobertaModel were not initialized from the model checkpoint at roberta-large and are newly initialized: ['pooler.dense.bias', 'pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+BERTScore F1 mean (chosen):   0.8132817924022675
+BERTScore F1 mean (rejected): 0.8132817924022675
+Scoring with reward model from: microsoft/deberta-v3-small
+/usr/local/lib/python3.12/dist-packages/transformers/convert_slow_tokenizer.py:564: UserWarning: The sentencepiece tokenizer that you are converting to a fast tokenizer uses the byte fallback option which is not implemented in the fast tokenizers. In practice this means that the fast version of the tokenizer can produce unknown tokens whereas the sentencepiece version would have converted these unknown tokens into a sequence of byte tokens matching the original piece of text.
+  warnings.warn(
+Some weights of DebertaV2ForSequenceClassification were not initialized from the model checkpoint at microsoft/deberta-v3-small and are newly initialized: ['classifier.bias', 'classifier.weight', 'pooler.dense.bias', 'pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Reward model preference accuracy (chosen > rejected): 0.000
+Files in CWD:
+.config
+drive
+labels
+reward_data.jsonl
+rm_ckpt
+sample_data
+wandb
+Scanning files ..........................................
+	zip warning: name not matched: drive/.Encrypted/.shortcut-targets-by-id/1uqtwka13SIvez6J2OVZ15i6o5NaMAbvP/Mobile Health
+	zip warning: name not matched: drive/.Encrypted/.shortcut-targets-by-id/1EkkJ8Ewc2r5uKjq4rNk4kTAiIWqTh-MV/Mobile Health App
+  adding: .config/ (stored 0%)
+  adding: .config/active_config (stored 0%)
+  adding: .config/config_sentinel (stored 0%)
+  adding: .config/hidden_gcloud_config_universe_descriptor_data_cache_configs.db
